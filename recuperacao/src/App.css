@@ -1,0 +1,106 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.banner img{
+  object-fit: cover;
+  width: 150%;
+  height: 400px;
+}
+
+.banner{
+
+}
+
+.galeria img{
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+    
+}
+
+.galeria{
+  display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ padding: 30px  80px;
+ gap: 20px;
+ align-items: center;
+
+}
+
+  
+
+header{
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  font-size:xx-large ;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 35px;
+  position: fixed;
+  width: 100%;
+
+}
+
+@media screen and (max-whidth:400px) {
+  .evento{
+flex-direction: column;
+gap: 10px;
+  }
+  
+}
+
+.coluna1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: smaller;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 10px 30px;
+  justify-content: center
+}
+
+.coluna2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: smaller;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 10px 30px;
+  justify-content: center
+}
+
+.banner h1{
+  position: absolute;
+  color: aliceblue;
+  top: 40%;
+  left: 46%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Livros img{
+  width: 250px;
+  border-radius: 25px;
+  gap:30px;
+  margin: 20px;
+}
+
+.Livros{
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  align-items: center;
+  margin: 50px;
+  list-style: none;
+}
+
+footer{
+    background-color:#000000;
+    color: aliceblue;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 75px;
+    
+    
+}
